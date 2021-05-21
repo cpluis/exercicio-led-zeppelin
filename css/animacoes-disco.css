@@ -2,7 +2,7 @@
     width: 350px;
     height: 350px;
     background-image: url(../imagem/capa-disco.png);
-    position: relative;
+    position: absolute;
 }
 
 .disco {
@@ -32,14 +32,14 @@
     margin-top: 115px;
     margin-left: 115px;
     background-image: url(../imagem/capa-disco.png);
-    background-size: cover;
+    background-size: contain;
 }
 
 .capa-disco:hover {
     background-image: url(../imagem/capa-disco.png);
     width: 350px;
     height: 350px;
-    background-size: cover;
+    background-size: contain;
 }
 
 .disco:hover .imagem-disco{
